@@ -1,13 +1,14 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
+import {ScopedCssBaseline } from '@mui/material';
+import Home from './Home';
 
 
 export default function MyApp() {
   return (
-    <div>
-      {/* props -> variant ="text/undefined/contained/outlined" */}
-      <Button variant="outlined">Hello Material UI</Button>
-
-    </div>
+    <React.Fragment>
+      <ScopedCssBaseline>
+        <Home/>
+      </ScopedCssBaseline>
+    </React.Fragment> 
   );
 }
