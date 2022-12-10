@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, CssBaseline } from "@mui/material";
+import {Button, ButtonGroup, CssBaseline } from "@mui/material";
 import React from "react";
 
 const Home = () => {
@@ -23,7 +23,6 @@ const Home = () => {
         <Button>Two</Button>
         <Button>Three</Button>
       </ButtonGroup>
-
 
     </React.Fragment>
   );
