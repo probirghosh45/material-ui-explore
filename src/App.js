@@ -14,11 +14,11 @@ export default function MyApp() {
   return (
     <div>
       <ScopedCssBaseline>
-        <Home/>
+        {/* <Home/>
         <CheckBox/>
         <RatingMui/>
         <SkeletonMui/>
-        <SxMui/>
+        <SxMui/> */}
         <CardMui/>
       </ScopedCssBaseline>
     </div> 
