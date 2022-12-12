@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 const HeroCard = () => {
     return (
         <React.Fragment>
-        <Card sx={{ maxWidth: 345 , p: 2}}>
+        <Card sx={{ maxWidth: 345 , p: 2 }}>
           <CardMedia
             component="img"
             height="140"

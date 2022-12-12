@@ -13,14 +13,14 @@ import CardMui from './CardMui';
 export default function MyApp() {
   return (
     <div>
-      <ScopedCssBaseline>
+      {/* <ScopedCssBaseline> */}
         {/* <Home/>
         <CheckBox/>
         <RatingMui/>
         <SkeletonMui/>
         <SxMui/> */}
+      {/* </ScopedCssBaseline> */}
         <CardMui/>
-      </ScopedCssBaseline>
     </div> 
   );
 }
